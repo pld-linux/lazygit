@@ -1,12 +1,12 @@
 Summary:	Simple terminal UI for git commands
 Name:		lazygit
-Version:	0.57.0
+Version:	0.61.0
 Release:	1
 License:	MIT
 Group:		Development/Tools
-#Source0Download: https://github.com/lazygit/lazygit/releases
+#Source0Download: https://github.com/jesseduffield/lazygit/releases
 Source0:	https://github.com/jesseduffield/lazygit/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	3d80f8a6991f0426f8a7730ee65c4569
+# Source0-md5:	db41eb89e2a5c32f0a38c15d1b3c2fe9
 URL:		https://github.com/jesseduffield/lazygit
 BuildRequires:	golang >= 1.25.0
 BuildRequires:	rpmbuild(macros) >= 2.009
